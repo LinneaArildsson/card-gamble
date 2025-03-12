@@ -8,7 +8,8 @@ export class MainMenu extends Phaser.Scene {
     }
 
     create () {
-        //this.add.image(100, 100, 'TestImage').setOrigin(0);
+
+        this.add.image(0, 0, 'MenuBackground').setOrigin(0).setScale(1.18);
 
         const menu_text = this.add.text(
             this.sys.game.scale.width / 2, 
